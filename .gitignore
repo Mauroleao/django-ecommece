@@ -1,0 +1,87 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Ignore pipenv files
+Pipfile.lock
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pypackages__/
+
+# Ignore PyInstaller files
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore pyenv
+.python-version
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Ignore virtualenv
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Spyder project settings
+.spyderproject
+.spyproject
+
+# Ignore Rope project settings
+.ropeproject
+
+# Ignore Pylint settings
+.pylintrc
+
+# Ignore local configuration files
+*.env
+.env.*
+*.local
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
